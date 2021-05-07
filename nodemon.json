@@ -1,0 +1,7 @@
+{
+   "env": {
+    "MONGO_USER": "odofing",
+    "MONGO_PASSWORD": "xgMFSXculTQd9rSu",
+   "MONGO_DB": "ZURI_CRUD"
+    }
+}

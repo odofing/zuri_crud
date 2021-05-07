@@ -17,7 +17,7 @@ router.post('/', async (req, res) => {
     res.json(savedProject)
       
       } catch (error) {
-          res.status(404).send({message: 'There is an error', data: savedProject})
+          res.status(404).send({message: 'There is an error', data: project})
       }
   })
   
