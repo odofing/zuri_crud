@@ -10,7 +10,7 @@ const postRoute = require('./Routes/Posts');
 app.use('/zuri-crud', postRoute);
 
 
-  mongoose.connect(`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@mongotesting.1lqon.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`,  {useNewUrlParser: true, useUnifiedTopology: true}, () => console.log('connected to remote db!!!'))
+  mongoose.connect(process.env.DB_CONNECTION,  {useNewUrlParser: true, useUnifiedTopology: true}, () => console.log('connected to remote db!!!'))
 
  
 
